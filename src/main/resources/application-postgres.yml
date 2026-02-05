@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/support_sim
+    username: support
+    password: support
+    driver-class-name: org.postgresql.Driver
+
+  flyway:
+    enabled: true
